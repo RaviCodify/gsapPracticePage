@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+    padding: 20px 0;
+    border-bottom: 2px solid #dadada;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+nav #nav-links{
+    display: flex;
+    gap: 20px;
+}
+nav h5 span{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.container .row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.container .left-content-up{
+    font-size: 40px;
+    border-bottom: 1px solid #fff;
+}
+.container .left-content-down{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.container .left-content-down h4:nth-child(2){
+    width:200px;
+    text-align: right;
+}
+
+.container .row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.row2 .left2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+.row2 .left2 .up{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.row2 .left2 .up i{
+    font-size: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    filter: invert(1);
+}
+.row2 .left2 .down h4{
+    border-radius:  100vw;
+    color: #dadada;
+    border: 1px solid #dadada;
+    padding: 5px 20px;
+    margin: 10px 0;
+}
